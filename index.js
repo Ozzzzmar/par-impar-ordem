@@ -9,4 +9,6 @@ for(let i = 0; i < inteiros.length; i++){
         impares.push(inteiros[i]);
     }
 }
-console.log(...pares, ...impares);
+let todos = [...pares, ...impares];
+console.log(todos);
+//console.log(...pares, ...impares);
